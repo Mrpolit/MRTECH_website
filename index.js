@@ -168,7 +168,7 @@ function logomenu(){
 function reDirect(directery){
     switch (directery) {
         case 'Home':
-            window.location.href = "../";
+            window.location.href = "./";
             break;
         case 'ContactUs':
             break;
