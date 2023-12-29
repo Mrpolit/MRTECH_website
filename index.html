@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MR Tech</title>
+    <link rel="icon" type="image/png" href="">
+    <meta property="og:title" content="">
+    <meta property="og:url" content="">
+    <meta property="og:description" content="">
+    <meta property="og:site_name" content="">
+</head>
+<body onresize="navBarButton(true)">
+    <div class="wellcomeWindow" id="wellcomeWindow">
+        <div class="bounce"><h1 class="wellcomeLogo">MR. TECH</h1></div>
+    </div>
+    <div class="mainWindow">
+        <div class="navBar" id="navBar">
+            <div class="navBarButton" onclick="navBarButton(false)">
+                <div class="menu"></div>
+                <div class="menu"></div>
+                <div class="menu"></div>
+            </div>
+            <div class="itemsMenu"><h2 class="itemsText" onclick="reDirect('ContactUs')">contact us</h2></div>
+            <div class="menuLogo" id="menuLogo" onclick="reDirect('Home')"><h1 class="logoText">MR. TECH</h1></div>
+            <div class="itemsMenu"><h2 class="itemsText" onclick="reDirect('AboutUs')">about us</h2></div>
+            <div class="copyRight" id="CR"><h6>copyright</h6></div>
+        </div>
+        <div class="content" id="content">
+            <div class="mainContant">
+                <div class="showcontent"><img src="/images/accessroies.avif" alt=""><div><h5>Accessories</h5></div></div>
+                <div class="showcontent"><img src="/images/preBuilt.png" alt=""><div><h5>Pre Built</h5></div></div>
+                <div class="showcontent"><img src="/images/costumBuilt.jpg" alt=""><div><h5>Custom Built</h5></div></div>
+            </div>
+            <div class="findMore">
+        
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
