@@ -150,6 +150,7 @@ body{
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                overflow: hidden;
                 div{
                     position: absolute;
                     top: 0;
