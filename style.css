@@ -169,8 +169,10 @@ body{
                         align-items:center;
                     }
                 }
-                div:hover{
-                    backdrop-filter: blur(2px);
+                div:hover~img{
+                    filter: blur(2px);
+                    height: 120%;
+                    width: 120%;
                 }
                 img{
                     height: 100%;
